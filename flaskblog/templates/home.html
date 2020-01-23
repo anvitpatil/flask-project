@@ -1,0 +1,24 @@
+
+{% extends "layout.html" %}
+{% block content %}
+  <legend><font size="+100">My Profile</font></legend>
+  <h2>Login to our page to view your profile</h2><div class="border-top pt-3">
+    <small class="text-muted">
+        Already Have An Account? <a class="ml-2" href="{{ url_for('login') }}">Sign In</a>
+    </small>
+</div>
+
+  <h2>Login to see your profile picture along with other basic details</h2>  <div class="border-top pt-3">
+    <small class="text-muted">
+        Need An Account? <a class="ml-2" href="{{ url_for('register') }}">Sign Up Now</a>
+    </small>
+</div>
+
+
+
+
+
+
+  <h1>If you dont have an account yet...plz Register</h1>
+  
+{% endblock content %}
